@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 :root {
-  --primary-color: #0d6efd;
   --light-color: #f8f9fa;
   --dark-color: #212529;
   --grey-color: #6c757d;
@@ -63,9 +62,33 @@ p em {
   line-height: 1.7;
 }
 
+#about {
+  background-color: #dbe2e6;
+}
+
+#work {
+  background-color: #dbe2e6;
+}
+
+#education {
+  background-color: #dbe2e6;
+}
+
+#skills {
+  background-color: #dbe2e6;
+}
+
+#projects {
+  background-color: #dbe2e6;
+}
+
+#contact {
+  background-color: #dbe2e6;
+}
+
 /* Content Card for Work, Education, Projects */
 .content-card {
-  background: #fff;
+  background: #bcdae6;
   padding: 30px;
   border-radius: 8px;
   box-shadow: var(--box-shadow);
