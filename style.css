@@ -117,13 +117,14 @@ p em {
   color: var(--dark-color);
 }
 
-.profile-pic {
-  width: 150px;
-  height: 150px;
+img.profile-pic {
+  width: 100%;
+  max-width: 200px;
   object-fit: cover;
-  border-radius: 50%; /* Makes it a circle */
+  border-radius: 50%;
   margin-bottom: 20px;
-  box-shadow: var(--box-shadow);
+  display: block;
+  margin: 0 auto;
 }
 
 /* Footer */
