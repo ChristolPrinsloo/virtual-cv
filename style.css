@@ -117,6 +117,15 @@ p em {
   color: var(--dark-color);
 }
 
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%; /* Makes it a circle */
+  margin-bottom: 20px;
+  box-shadow: var(--box-shadow);
+}
+
 /* Footer */
 .footer {
   background-color: var(--dark-color);
