@@ -4,25 +4,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Christo Prinsloo – Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    body {
-      padding-top: 60px;
-    }
-    section {
-      padding: 60px 0;
-    }
-    .navbar-brand {
-      font-weight: bold;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Christo Prinsloo</a>
+      <a class="navbar-brand" href="#about">Christo Prinsloo</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -40,7 +32,7 @@
   </nav>
 
   <!-- About -->
-  <section id="about" class="bg-light">
+  <section id="about" class="bg-white">
     <div class="container text-center">
       <h2>About Me</h2>
       <p class="lead">
@@ -56,7 +48,7 @@
   <section id="work">
     <div class="container">
       <h2 class="text-center">Work Experience</h2>
-      <div class="mb-4">
+      <div class="content-card">
         <h4>Software Engineer – Swordfish Software</h4>
         <p><em>2022 – Present</em></p>
         <ul>
@@ -70,10 +62,10 @@
   </section>
 
   <!-- Education -->
-  <section id="education" class="bg-light">
+  <section id="education" class="bg-white">
     <div class="container">
       <h2 class="text-center">Education</h2>
-      <div class="mb-4">
+      <div class="content-card">
         <h4>B.Sc. in Information Technology</h4>
         <p><em>North-West University – Expecting to graduate in 2025</em></p>
         <p>Focus on software engineering, data structures, databases, and systems analysis.</p>
@@ -103,14 +95,23 @@
   </section>
 
   <!-- Projects -->
-  <section id="projects" class="bg-light">
+  <section id="projects" class="bg-white">
     <div class="container">
       <h2 class="text-center">Projects</h2>
-      <ul>
-        <li><strong>Virtual CV</strong>: A personal resume site built with HTML, CSS, and GitHub Pages.</li>
-        <li><strong>Registered Mandates</strong>: Lead developer for a debit order integration project with providers.</li>
-
-      </ul>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="content-card">
+            <h5>Virtual CV</h5>
+            <p>A personal resume site built with HTML, CSS, and Bootstrap, hosted on GitHub Pages. This project demonstrates clean, responsive front-end design.</p>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="content-card">
+            <h5>Registered Mandates</h5>
+            <p>As lead developer, I architected and implemented a key debit order integration with major payment providers, enhancing system capabilities and reliability.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -118,11 +119,18 @@
   <section id="contact">
     <div class="container text-center">
       <h2>Contact</h2>
-      <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank">your-profile</a></p>
-      <p>GitHub: <a href="https://github.com/your-username" target="_blank">your-username</a></p>
+      <p>Email: <a href="mailto:21052239@mynwu.ac.za">21052239@mynwu.ac.za</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/christo-prinsloo-38b304376" target="_blank" rel="noopener noreferrer">linkedin.com/in/christo-prinsloo</a></p>
+      <p>GitHub: <a href="https://github.com/ChristolPrinsloo" target="_blank" rel="noopener noreferrer">github.com/ChristolPrinsloo</a></p>
     </div>
   </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Christo Prinsloo. All Rights Reserved.</p>
+    </div>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
