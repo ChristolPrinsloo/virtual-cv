@@ -7,7 +7,10 @@ CSS3 – For styling and layout
 VS Code – As the code editor
 GitHub Pages – For free web hosting
 
+Live url: https://christolprinsloo.github.io/virtual-cv/
+
 Project Structure:
+```
 .
 ├── images/ # Profile picture
 │ └── profile.jpg
@@ -15,3 +18,4 @@ Project Structure:
 ├── index.html # Main CV file
 ├── style.css # Stylesheet
 └── README.md # Project info
+```
